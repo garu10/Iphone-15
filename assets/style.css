@@ -1,0 +1,77 @@
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url("assets/callinf-card_back.jpg"); 
+    background-color: black;
+}
+
+.full-height-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column; 
+    padding: 0 !important; 
+}
+
+.content-row {
+    flex-grow: 1; 
+}
+
+.bg-black-section {
+    background-color: black;
+}
+
+#overview {
+    padding: 20px;
+    padding-top: 200px;
+}
+
+.center-content {
+    text-align: center;
+    padding: 4px; 
+}
+
+.video-container {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.video-container video {
+    object-fit: cover;
+}
+
+.pro-gradient {
+    background: -webkit-linear-gradient(45deg, #8A2BE2, #004d99); 
+    background-clip: text; 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.mobile-nav-wrapper {
+    background-color: black;
+    padding: 30px;
+}
+
+.mobile-nav-wrapper .navbar {
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.mobile-nav-wrapper .nav-link, 
+.mobile-nav-wrapper .navbar-brand a {
+    color: white;
+    text-decoration: none;
+}
+
+.specs-img {
+    max-height: 400px;
+    object-fit: cover;
+}
+
+.action-button-video {
+    max-width: 800px; 
+    display: block; 
+    margin: 0 auto;
+}
